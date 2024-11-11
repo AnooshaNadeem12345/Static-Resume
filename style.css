@@ -1,0 +1,65 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: rgb(192, 168, 211);
+}
+h1{
+    text-align: center;
+    color:  rgb(155, 74, 74);
+}
+
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color: rgb(107, 88, 160);
+    border-radius: 8px;
+    box-shadow: 0 4px 8 rgb(0, 0, 0.5);
+    padding: 20px;
+}
+
+fieldset{
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px ;
+    background-color: rgb(135, 99, 138);
+}
+
+legend{
+    font-weight: bold;
+    text-align: left;
+    color: black;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+}
+
+input,textarea{
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid aliceblue;
+    box-sizing: border-box;
+}
+
+button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(73, 45, 99);
+    cursor: pointer;
+    color: black;
+    border:none;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover{
+     color: rgb(109, 56, 56);
+     background-color: rgb(123, 106, 139);
+}
